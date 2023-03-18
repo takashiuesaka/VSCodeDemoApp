@@ -1,0 +1,14 @@
+### POSTリクエストでPersonエンティティを追加
+POST http://localhost:8080/api/person
+Content-Type: application/json
+
+{
+    "firstName": "Takashi",
+    "lastName": "Uesaka"
+}
+
+###
+GET http://localhost:8080/api/person
+
+###
+GET http://localhost:8080/api/person/2
